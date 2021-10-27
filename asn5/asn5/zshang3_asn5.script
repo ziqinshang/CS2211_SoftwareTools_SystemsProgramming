@@ -1,0 +1,148 @@
+Script started on Tue Dec  1 00:35:25 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ pwd[K[K[Kdate
+Tue  1 Dec 2020 00:35:31 CST
+bash-3.2$ who am i
+DavidShang ttys006  Dec  1 00:35 
+bash-3.2$ da[K[Kpwd
+/Users/DavidShang/Desktop/CS2211A5TEST
+bash-3.2$ ls
+Header.h		createnode.c		main.c
+Makefile		inputfunction.c		zshang3_asn5.script
+bash-3.2$ make
+cc -c main.c
+cc -c inputfunction.c
+cc -c createnode.c
+[1mcreatenode.c:37:16: [0m[0;1;35mwarning: [0m[1mincompatible pointer types initializing 'wordnodes *'
+      (aka 'struct words *') with an expression of type 'struct wordnodes *'
+      [-Wincompatible-pointer-types][0m
+    wordnodes *tmpnode = sentence->content;
+[0;1;32m               ^         ~~~~~~~~~~~~~~~~~
+[0m[1mcreatenode.c:43:16: [0m[0;1;35mwarning: [0m[1mincompatible pointer types assigning to 'wordnodes *'
+      (aka 'struct words *') from 'struct wordnodes *' [-Wincompatible-pointer-types][0m
+       tmpnode = tmpnode->next;
+[0;1;32m               ^ ~~~~~~~~~~~~~
+[0m[1mcreatenode.c:60:16: [0m[0;1;35mwarning: [0m[1mincompatible pointer types initializing 'wordnodes *'
+      (aka 'struct words *') with an expression of type 'struct wordnodes *'
+      [-Wincompatible-pointer-types][0m
+    wordnodes *lastnode = sentence->content;
+[0;1;32m               ^          ~~~~~~~~~~~~~~~~~
+[0m[1mcreatenode.c:70:26: [0m[0;1;35mwarning: [0m[1mincompatible pointer types assigning to 'struct wordnodes *' from
+      'wordnodes *' (aka 'struct words *') [-Wincompatible-pointer-types][0m
+       sentence->content = newnode;
+[0;1;32m                         ^ ~~~~~~~
+[0m[1mcreatenode.c:75:21: [0m[0;1;35mwarning: [0m[1mincompatible pointer types assigning to 'wordnodes *'
+      (aka 'struct words *') from 'struct wordnodes *' [-Wincompatible-pointer-types][0m
+           lastnode = lastnode->next;
+[0;1;32m                    ^ ~~~~~~~~~~~~~~
+[0m[1mcreatenode.c:77:20: [0m[0;1;35mwarning: [0m[1mincompatible pointer types assigning to 'struct wordnodes *' from
+      'wordnodes *' (aka 'struct words *') [-Wincompatible-pointer-types][0m
+    lastnode->next = newnode;
+[0;1;32m                   ^ ~~~~~~~
+[0m[1mcreatenode.c:123:16: [0m[0;1;35mwarning: [0m[1mincompatible pointer types initializing 'wordnodes *'
+      (aka 'struct words *') with an expression of type 'struct wordnodes *'
+      [-Wincompatible-pointer-types][0m
+    wordnodes *tmpnode = sentence->content;
+[0;1;32m               ^         ~~~~~~~~~~~~~~~~~
+[0m[1mcreatenode.c:133:16: [0m[0;1;35mwarning: [0m[1mincompatible pointer types assigning to 'wordnodes *'
+      (aka 'struct words *') from 'struct wordnodes *' [-Wincompatible-pointer-types][0m
+       tmpnode = tmpnode->next;
+[0;1;32m               ^ ~~~~~~~~~~~~~
+[0m8 warnings generated.
+cc main.o inputfunction.o createnode.o
+bash-3.2$ ./a.out
+Enter a string: 12 3 123 123 213 213 1 12 312 312 4 123 12
+linked list items: 12, 3, 123, 123, 213, 213, 1, 12, 312, 312, 4, 123, 12, 
+
+Enter a string: 1 1 1 1  1 1 1 1 1 1 1  1 1 1 1 1
+linked list items: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+
+Enter a string: 142 3 1 213 12 3 123 123 123 123 12 312 
+linked list items: 142, 3, 1, 213, 12, 3, 123, 123, 123, 123, 12, 312, 
+
+Enter a string: 2 3 23 13 1 3 2 2 2
+linked list items: 2, 3, 23, 13, 1, 3, 2, 2, 2, 
+
+Enter a string:  
+linked list items: 
+
+sentence linked list items: 
+linked list items: 12, 3, 123, 123, 213, 213, 1, 12, 312, 312, 4, 123, 12, 
+
+linked list items: ÐDà¦ , 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+
+linked list items: ÐYÀ¦ , 3, 1, 213, 12, 3, 123, 123, 123, 123, 12, 312, 
+
+linked list items: , 3, 23, 13, 1, 3, 2, 2, 2, 
+
+linked list items: 
+
+Enter a word to search
+1
+word found in line: 1 and position : 7
+word found in line: 2 and position : 2
+word found in line: 2 and position : 3
+word found in line: 2 and position : 4
+word found in line: 2 and position : 5
+word found in line: 2 and position : 6
+word found in line: 2 and position : 7
+word found in line: 2 and position : 8
+word found in line: 2 and position : 9
+word found in line: 2 and position : 10
+word found in line: 2 and position : 11
+word found in line: 2 and position : 12
+word found in line: 2 and position : 13
+word found in line: 2 and position : 14
+word found in line: 2 and position : 15
+word found in line: 2 and position : 16
+word found in line: 3 and position : 3
+word found in line: 4 and position : 5
+Enter a word to search
+2
+word found in line: 4 and position : 7
+word found in line: 4 and position : 8
+word found in line: 4 and position : 9
+Enter a word to search
+3
+word found in line: 1 and position : 2
+word found in line: 3 and position : 2
+word found in line: 3 and position : 6
+word found in line: 4 and position : 2
+word found in line: 4 and position : 6
+Enter a word to search
+123
+word found in line: 1 and position : 3
+word found in line: 1 and position : 4
+word found in line: 1 and position : 12
+word found in line: 3 and position : 7
+word found in line: 3 and position : 8
+word found in line: 3 and position : 9
+word found in line: 3 and position : 10
+Enter a word to search
+2
+word found in line: 4 and position : 7
+word found in line: 4 and position : 8
+word found in line: 4 and position : 9
+Enter a word to search
+4
+word found in line: 1 and position : 11
+Enter a word to search
+
+Enter a sentence index to delete
+3
+sentence linked list items: 
+linked list items: 12, 3, 123, 123, 213, 213, 1, 12, 312, 312, 4, 123, 12, 
+
+linked list items: ÐDà¦ , 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+
+linked list items: , 3, 1, 213, 12, 3, 123, 123, 123, 123, 12, 312, 
+
+linked list items: 
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Dec  1 00:36:21 2020

@@ -1,0 +1,135 @@
+Script started on 2020-10-06 08:47:59-04:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="109" LINES="39"]
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ date
+Tue Oct  6 08:48:03 EDT 2020
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ who am i
+zshang3  pts/20       2020-10-06 08:47
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ pwd
+/home/zshang3/courses/cs2211a/asn/asn2
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ ./ converter
+bash: ./: Is a directory
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ ./ converter
+bash: ./: Is a directory
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ ./ [Kconver[K[K[K[K[K[Kconvwer[Kt[K[K[Kerter
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+1
+You entered 1.Please enter the character
+ K for K2M
+ M for M2K
+K
+conversion from Kilometer to Mile
+1000
+result = 621.370972
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+1
+You entered 1.Please enter the character
+ K for K2M
+ M for M2K
+M
+conversion from Mile to Kilometer
+1000
+result = 1609.339966
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+2
+You entered 2.Please enter the character
+ L for L2G
+ G for G2L
+L
+conversion from Litre to Gallon
+1000
+result = 264.171997
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+2
+You entered 2.Please enter the character
+ L for L2G
+ G for G2L
+G
+conversion from Gallon to Litre
+1000
+result = 3785.409912
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+3
+You entered 3.Please enter the character
+ C for C2I
+ I for I2C
+C
+conversion from Centimetre to Inch
+1000
+result = 393.700989
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+3
+You entered 3.Please enter the character
+ C for C2I
+ I for I2C
+I
+conversion from Inch to Centimetre
+1000
+result = 2540.000000
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+4
+You entered 4.Please enter the character
+ C for C2F
+ F for F2C
+C
+conversion from Celsius to Fahrenheit
+1000
+result = 1832.000000
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+4
+You entered 4.Please enter the character
+ C for C2F
+ F for F2C
+F
+conversion from Fahrenheit to Celsius
+1000
+result = 537.777771
+Please enter the character
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 for quit
+5
+You entered 5.]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ EXIT[K[K[K[Kexit
+exit
+
+Script done on 2020-10-06 08:50:15-04:00 [COMMAND_EXIT_CODE="0"]

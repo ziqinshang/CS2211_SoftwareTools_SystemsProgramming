@@ -1,0 +1,9 @@
+/* CS2211a 2020 */
+/* Lab 12 */
+/* ziqin shang */
+/* 250890594 */
+/* zshang3 */
+/* Dec 05 2020 */ 
+1.) I have compiled and I ran the supplied C code: <yes>
+2.) I have I completed the course evaluation: <yes>
+3.) I have I completed the Protortrack onboarding process: <yes>

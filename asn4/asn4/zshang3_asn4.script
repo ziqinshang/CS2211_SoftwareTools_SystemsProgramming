@@ -1,0 +1,120 @@
+Script started on 2020-11-14 01:31:50-05:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="89" LINES="46"]
+]0;zshang3@compute:~/courses/cs2211a/asn/asn4[zshang3@compute asn4]$ date
+Sat Nov 14 01:31:55 EST 2020
+]0;zshang3@compute:~/courses/cs2211a/asn/asn4[zshang3@compute asn4]$ who am i
+zshang3  pts/2        2020-11-14 01:31
+]0;zshang3@compute:~/courses/cs2211a/asn/asn4[zshang3@compute asn4]$ pwd
+/home/zshang3/courses/cs2211a/asn/asn4
+]0;zshang3@compute:~/courses/cs2211a/asn/asn4[zshang3@compute asn4]$ ls
+functions.c  Header.h  inputfunctions.c  main.c  zshang3_asn4.script
+]0;zshang3@compute:~/courses/cs2211a/asn/asn4[zshang3@compute asn4]$ gcc-[K -o asn4 main.c
+]0;zshang3@compute:~/courses/cs2211a/asn/asn4[zshang3@compute asn4]$ ./asn4
+Enter a string: Hello my name is david 
+memory allocated for the words: '96'
+memory allocated in total: '32664'
+Enter a string: This      is a       test for     spaces key
+memory allocated for the words: '112'
+memory allocated in total: '32784'
+Enter a string: my professor is max magguilli
+memory allocated for the words: '80'
+memory allocated in total: '32872'
+Enter a string: i am currently taking computer science 2211a
+memory allocated for the words: '112'
+memory allocated in total: '32992'
+Enter a string: this is a memory alo location assignment
+memory allocated for the words: '96'
+memory allocated in total: '33096'
+Enter a string: i was pre        t was pretty tough
+memory allocated for the words: '64'
+memory allocated in total: '33168'
+Enter a string: but i did it
+memory allocated for the words: '64'
+memory allocated in total: '33240'
+Enter a string:  
+memory allocated for the words: '16'
+memory allocated in total: '33264'
+Hello
+my
+name
+is
+david
+
+
+This
+is
+a
+test
+for
+spaces
+key
+
+my
+professor
+is
+max
+magguilli
+
+i
+am
+currently
+taking
+computer
+science
+2211a
+
+this
+is
+a
+memory
+allocation
+assignment
+
+it
+was
+pretty
+tough
+
+but
+i
+did
+it
+
+
+
+Hello my name is david 
+ This is a test for spaces key
+ my professor is max magguilli
+ i am currently taking computer science 2211a
+ this is a memory allocation assignment
+ it was pretty tough
+ but i did it
+ 
+ Enter a word to search
+is
+word found in line: 1 and position : 4
+word found in line: 2 and position : 2
+word found in line: 3 and position : 3
+word found in line: 5 and position : 2
+Enter a word to search
+a
+word found in line: 2 and position : 3
+word found in line: 5 and position : 3
+Enter a word to search
+max
+word found in line: 3 and position : 4
+Enter a word to search
+was
+word found in line: 6 and position : 2
+Enter a word to search
+i
+word found in line: 4 and position : 1
+word found in line: 7 and position : 2
+Enter a word to search
+professor
+word found in line: 3 and position : 2
+Enter a word to search
+
+]0;zshang3@compute:~/courses/cs2211a/asn/asn4[zshang3@compute asn4]$ exit
+exit
+
+Script done on 2020-11-14 01:35:00-05:00 [COMMAND_EXIT_CODE="0"]

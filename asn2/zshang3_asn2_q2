@@ -1,0 +1,44 @@
+Script started on 2020-10-06 08:50:31-04:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="109" LINES="39"]
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ date
+Tue Oct  6 08:50:39 EDT 2020
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ who am i
+zshang3  pts/20       2020-10-06 08:50
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ pwd
+/home/zshang3/courses/cs2211a/asn/asn2
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ ./exp_calculator
+enter the base3
+enter the exponent3
+result = 27.000000
+enter the base2
+enter the exponent3
+result = 8.000000
+enter the base4
+enter the exponent5
+result = 1024.000000
+enter the base6
+enter the exponent7
+result = 279936.000000
+enter the base1.5
+enter the exponent3
+result = 3.375000
+enter the base1.90283
+enter the exponent5
+result = 24.945946
+enter the base123
+enter the exponent2
+result = 15129.000000
+enter the base60
+enter the exponent2
+result = 3600.000000
+enter the base9.62432
+enter the exponent4
+result = 8579.859375
+enter the base8.2648593
+enter the exponent5
+result = 38563.578125
+enter the base0
+enter the exponent1
+]0;zshang3@compute:~/courses/cs2211a/asn/asn2[zshang3@compute asn2]$ exit
+exit
+
+Script done on 2020-10-06 08:52:21-04:00 [COMMAND_EXIT_CODE="0"]

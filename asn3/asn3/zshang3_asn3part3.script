@@ -1,0 +1,67 @@
+Script started on 2020-10-18 12:50:34-04:00 [TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="113" LINES="52"]
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ date
+Sun Oct 18 12:50:49 EDT 2020
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ whjo[K[Ko am i
+zshang3  pts/16       2020-10-18 12:50
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ ls
+[0m[38;5;40masn3a[0m  asn3a.c  [38;5;40masn3b[0m  asn3b.c  zshang3_asn3part3.script
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ asn3a[K[K[K[K[K./asn3a
+size of array:60 
+length of array:15 
+PART1
+12 63 44 89 3 55 73 27 37 18 1 2 3 4 5 
+PART2
+5 4 3 2 1 18 37 27 73 55 3 89 44 63 12 
+PART3
+The smallest value stored in the array is:
+value:1 with the position of 11 
+PART4
+12 +63 +44 +89 +3 +55 +73 +27 +37 +18 +1 +2 +3 +4 +5 equals436 
+PART5
+The original array:
+12 63 44 89 3 55 73 27 37 18 1 2 3 4 5 
+new(reversed) array
+5 4 3 2 1 18 37 27 73 55 3 89 44 63 12 
+PART6
+The original array:
+12 63 44 89 3 55 73 27 37 18 1 2 3 4 5 
+The modified array:
+5 63 44 89 3 55 73 27 37 18 1 2 3 4 12 
+PART7
+The original array:
+5 63 44 89 3 55 73 27 37 18 1 2 3 4 12 
+The modified array:
+1 2 3 3 4 5 12 18 27 37 44 55 63 73 89 ]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ ./asn3b
+Input? 3
+The final total is: 5
+Input? 4
+The final total is: 5
+Input? 5
+The final total is: 10
+Input? 6
+The final total is: 10
+Input? 7
+The final total is: 17
+Input? 8
+The final total is: 17
+Input? 9
+The final total is: 17
+Input? 10
+The final total is: 17
+Input? 11
+The final total is: 28
+Input? 13
+The final total is: 41
+Input? 15
+The final total is: 41
+Input? 17
+The final total is: 58
+Input? 0
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ mb[Kv asn3a.c zshang3_asn3a/c[K[K.c
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ mv asn3a[Kb.c zshang3@[K_asn3b.c
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ ls
+[0m[38;5;40masn3a[0m  [38;5;40masn3b[0m  zshang3_asn3a.c  zshang3_asn3b.c  zshang3_asn3part3.script
+]0;zshang3@compute:~/courses/cs2211a/asn/asn3[zshang3@compute asn3]$ exit
+exit
+
+Script done on 2020-10-18 12:52:47-04:00 [COMMAND_EXIT_CODE="0"]
